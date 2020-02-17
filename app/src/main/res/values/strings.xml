@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Valentine\'s Vault</string>
+    <string name="miku_love">My love for you transcends any glass wall! ♥♥♥</string>
+
+    <string name="paff_desc">A singer and commercial star who enjoys immense popularity; a 24 year old girl who seems born to be in the spotlight, whether it\'s the virtual world or the real world.
+The number of fans she has is astonishing. She can hold virtual concerts non stop for a whole week and every single session will still be packed to the brim.
+Her image and every single statement she makes is closely monitored by her agency. When the cameras and lights are not on, just what kind of person is she?</string>
+
+    <string name="neko_desc">A popular streamer who has a group of die-hard fans.
+Enjoys streaming herself playing video games and chatting with her fans about all kinds of gossip.
+Represents chaos and disorder in the internet world, yet at the same time represents creativity and possibility.</string>
+
+    <string name="robo_desc">A weird character sporting mechanical speech and judges everything based solely on data.
+An analytics nerd; dabbles with all kinds of information on the net. Reposts articles that caught his eye to his own SNS page. His occasional radio show has garnered a minor following.</string>
+
+    <string name="ivy_desc">On the eve of N.A. 700, people are cheering and celebrating. Everyone is looking forward to the arrival of the new century. At the same time, the mysterious Ivy awakes inside a jungle located deep within the forbidden area. She discovers that the world is no longer looks like the one she\'s familiar with.</string>
+
+    <string name="cherry_desc">The leader and guitarist for the band "Cherry PuNK". Had a complicated and eventful relationship with Xenon in the past. The two were brought together again by the Æsir events. What is waiting ahead for them? Is it the truth, or another nightmare? </string>
+
+    <string name="xenon_desc">A system security administrator who works at A.R.C.; has access to lower levels of the system.
+A highly skilled programmer and leader/guitarist of the personal band "Xenon".
+Has a strong sense of justice and feels the need to protect others. Desires to rid the world of crime through his own methods.</string>
+
+    <string name="conner_desc">A collector, performer, and archaeologist who specializes in ancient instruments and fuses them into his music.
+A middle aged gentleman who acts in a graceful and elegant manner. Often exploits loopholes in the law in order to maintain the costs of his research. Has a family history deeply connected with the reform of civilization and past technology.</string>
+
+    <string name="joe_desc">JOEZ Cafe of Node 08——On the surface it comes across as an ordinary pub, yet is in possession of over half the city\'s underground intel.
+What transpired in the past to push cynical JOE over the edge, leading to undeniable association with notorious gangs and involvement of cross Node criminal activity past the point of no return? Malicious intentions lurking within the metropolis\' dark corners are just waiting for the right moment to bring themselves to the light.</string>
+
+    <string name="nora_desc">By reading ROBO_Head\'s archived record files, the stage is moved to Node 03 on the other side of the world. This Node is controlled by multiple gangs and chaos is always present. Under the turbulent and constant power struggles, the mysterious girl "Nora" observes everything quietly from her secret chamber located deep within the scientific organization "Kyuu Hou Kai". Unbeknownst to her, she is about to witness a fraction of the truth behind Node 08\'s ongoing mystery, from her small room in the far, far East.</string>
+
+    <string name="miku_desc">A virtual pop star that took Node 03 by storm. Saito Production\'s latest technological advancement; a money-making machine. She garnered millions of followers and became a well-known staple inside the lives of Node 03\'s citizens. Having countless amounts of die-hard fans, one would say that Miku was made to be popular; both figuratively, and in a literal sense. Following the events of Æsir-FEST, what will have happened to the breathtaking star? Will she prevail, or will the malfunctions get the best of her? Will she ever be the same Miku? </string>
+
+    <string name="paff_fullname">Aroma White</string>
+    <string name="neko_fullname">Neko Asakura</string>
+    <string name="robo_fullname">ROBO_Head Unit 02</string>
+    <string name="ivy_fullname">OPCI_2501_IV</string>
+    <string name="cherry_fullname">Sherry Pauline</string>
+    <string name="xenon_fullname">Simon Jackson</string>
+    <string name="conner_fullname">Colin Neumann Jr.</string>
+    <string name="joe_fullname">Joe Miller</string>
+    <string name="nora_fullname">Shiino Shizuka</string>
+    <string name="miku_fullname">Hatsune Miku_2.3.9</string>
+
+</resources>
