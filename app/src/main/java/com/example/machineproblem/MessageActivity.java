@@ -2,8 +2,10 @@ package com.example.machineproblem;
 
 import android.animation.ObjectAnimator;
 
+import android.content.Context;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;
@@ -26,6 +28,8 @@ public class MessageActivity extends AppCompatActivity {
     ImageView miku;
     ImageView heart1;
     ImageView heart2;
+    Vibrator vib;
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,13 +42,17 @@ public class MessageActivity extends AppCompatActivity {
         heart2 = findViewById(R.id.heart2);
 
         floatEffect(miku);
-        floatEffect(heart1);
+        heartEffect(heart1);
+        heartEffect(heart2);
+
+        vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 bounce(miku);
+                vib.vibrate(250);
 
                 switch ((int) ratingBar.getRating()) {
                     case 0:
@@ -97,11 +105,23 @@ public class MessageActivity extends AppCompatActivity {
         v.setAnimation(flAnimation);
     }
 
+    public void heartEffect(View v) {
+
+        TranslateAnimation flAnimation = new TranslateAnimation(TranslateAnimation.ABSOLUTE,0f,
+                TranslateAnimation.ABSOLUTE,0f,
+                TranslateAnimation.RELATIVE_TO_PARENT, 0f,
+                TranslateAnimation.RELATIVE_TO_PARENT,.03f);
+        flAnimation.setDuration(3000);
+        flAnimation.setRepeatCount(Animation.INFINITE);
+        flAnimation.setRepeatMode(Animation.REVERSE);
+        flAnimation.setInterpolator(new AccelerateDecelerateInterpolator());
+        v.setAnimation(flAnimation);
+    }
+
     private void bounce(View v) {
-        ObjectAnimator animator = ObjectAnimator.ofFloat(v, "translationX", 0, 25, 0);
+        ObjectAnimator animator = ObjectAnimator.ofFloat(v, "translationX", 0, 50, 0);
         animator.setInterpolator(new EasingInterpolator(Ease.ELASTIC_IN_OUT));
-        animator.setStartDelay(500);
-        animator.setDuration(1500);
+        animator.setDuration(1000);
         animator.start();
     }
 

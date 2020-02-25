@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,6 +19,7 @@ public class MemoriesActivity extends AppCompatActivity {
     LinearLayout joe;
     LinearLayout nora;
     LinearLayout miku;
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -148,4 +148,5 @@ public class MemoriesActivity extends AppCompatActivity {
         });
 
     }
+
 }
